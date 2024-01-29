@@ -34,7 +34,7 @@
               </p>
 
               <p>
-                Hii! I am a doctoral student with <a href="https://vinaypn.github.io/">Prof. Vinay P. Namboodiri</a> and <a href="https://www.cse.iitk.ac.in/users/piyush/">Prof. Piyush Rai</a> in <a href="https://www.cse.iitk.ac.in/">Dept. Of Computer Science & Engineering</a> at <a href="https://www.iitk.ac.in/">IIT Kanpur</a>. I also closely collaborate with <a href="https://scholar.google.com/citations?user=7x6GZ1EAAAAJ&hl=en">Dr. Vinay Kumar Verma</a>. I work in the area of general machine learning, deep learning, active learning and computer vision.
+                Hii! I am a doctoral student with <a href="https://www.cse.iitk.ac.in/users/piyush/">Prof. Piyush Rai</a> and <a href="https://vinaypn.github.io/">Prof. Vinay P. Namboodiri</a> in <a href="https://www.cse.iitk.ac.in/">Dept. Of Computer Science & Engineering</a> at <a href="https://www.iitk.ac.in/">IIT Kanpur</a>. I also closely collaborate with <a href="https://scholar.google.com/citations?user=7x6GZ1EAAAAJ&hl=en">Dr. Vinay Kumar Verma</a>. I work in the area of general machine learning, deep learning, active learning and computer vision.
               </p>
 
               <p>
@@ -69,6 +69,11 @@
             <!--sectionheading>&nbsp;&nbsp;News</sectionheading-->
             
             <ul>
+
+                <li> Our work on 'VERSE: Virtual-Gradient Aware Streaming Lifelong Learning with Anytime Inference' has been accepted at <a href="https://2024.ieee-icra.org/" >ICRA2024.</a></li>
+
+                <li> I will be attending <a href="https://sites.google.com/view/researchweek24/" >Research Week with Google 2024.</a></li>
+
                 <li> Our work on 'Streaming LifeLong Learning With Any-Time Inference' has been accepted at <a href="https://www.icra2023.org/" >ICRA2023.</a></li>
                 
               
@@ -136,16 +141,74 @@
 
           <!-- StarttPaper one -->
 
+          
           <tr>
 
-            <td width="33%" valign="top" align="center" style="padding-top:10px">
+            <td width="43%" valign="top" align="center" style="padding-top:10px">
+
+              <img src="images/streaming_learning_icra24.png" alt="sym" width="85%" style="padding:10px;border-radius:15px;border:0px solid black">
+
+            </td>
+            <td width="57%" valign="top" style="padding-top:10px">
+              <p><a href="https://SouBanerjee.github.io/">
+                <img src="images/news.png"  width="6%" style="border-style: none">
+                <heading>VERSE: Virtual-Gradient Aware Streaming Lifelong Learning with Anytime Inference</heading>
+              </a>
+              <br>
+
+			        <strong>Soumya Banerjee</strong>, 
+              <a href="https://scholar.google.com/citations?user=7x6GZ1EAAAAJ&hl=en">Vinay Kumar Varma</a>,
+              <a href="https://www.cse.iitk.ac.in/users/avideep/">Avideep Mukherjee</a>,
+              <a href="https://www.linkedin.com/in/deepak-gupta-50965823/">Deepak Gupta</a>,
+              <a href="https://vinaypn.github.io/">Vinay Namboodiri</a>,
+              <a href="https://www.cse.iitk.ac.in/users/piyush/">Piyush Rai</a><br>
+              
+              <em>IEEE International Conference on Robotics and Automation (ICRA) 2024</em>, 
+              <br> Yokohama, JAPAN <br><br>
+              </p>
+
+              <div class="paper" id="icra24">
+                <a href="javascript:toggleblock(&#39;icra24_abs&#39;)">abstract</a> |
+                <a shape="rect" href="javascript:togglebib(&#39;icra24&#39;)" class="togglebib">bibtex</a> | paper (coming soon) | <a href="https://arxiv.org/abs/2309.08227">arXiv</a>
+
+
+                <p align="justify" id="icra24_abs" style="display: none;"> Lifelong learning, also referred to as continual learning, is the problem of training an AI agent continuously while also preventing it from forgetting its previously acquired knowledge. Most of the existing methods primarily focus on lifelong learning within a static environment and lack the ability to mitigate forgetting in a quickly-changing dynamic environment. Streaming lifelong learning is a challenging setting of lifelong learning with the goal of continuous learning in a dynamic non-stationary environment without forgetting. We introduce a novel approach to lifelong learning, which is streaming, requires a single pass over the data, can learn in a class-incremental manner, and can be evaluated on-the-fly (anytime inference). To accomplish these, we propose virtual gradients for continual representation learning to prevent catastrophic forgetting and leverage an exponential-moving-average-based semantic memory to further enhance performance. Extensive experiments on diverse datasets demonstrate our method's efficacy and superior performance over existing methods.</p>
+
+                <pre xml:space="preserve" style="display: none; font-family: monospace;">@article{banerjee2023verse,
+                  title={Verse: Virtual-gradient aware
+                    streaming lifelong learning 
+                    with anytime inference},
+                  author={Banerjee, Soumya and 
+                    Verma, Vinay K and 
+                    Mukherjee, Avideep and 
+                    Gupta, Deepak and 
+                    Namboodiri, Vinay P and 
+                    Rai, Piyush},
+                  journal={arXiv preprint 
+                    arXiv:2309.08227},
+                  year={2023}
+                }
+                </pre>
+              </div>
+
+              
+            </td>
+          </tr>
+
+
+          <!-- StarttPaper two -->
+
+
+          <tr>
+
+            <td width="43%" valign="top" align="center" style="padding-top:10px">
 
               <img src="images/streaming_learning_model.png" alt="sym" width="85%" style="padding:10px;border-radius:15px;border:0px solid black">
 
             </td>
-            <td width="67%" valign="top" style="padding-top:10px">
+            <td width="57%" valign="top" style="padding-top:10px">
               <p><a href="https://SouBanerjee.github.io/">
-                <img src="images/news.png"  width="6%" style="border-style: none">
+                <!-- <img src="images/news.png"  width="6%" style="border-style: none"> -->
                 <heading>Streaming LifeLong Learning With Any-Time Inference</heading>
               </a>
               <br>
@@ -160,23 +223,22 @@
 
               <div class="paper" id="icra23">
                 <a href="javascript:toggleblock(&#39;icra23_abs&#39;)">abstract</a> |
-                <!--a shape="rect" href="javascript:togglebib(&#39;icra23&#39;)" class="togglebib"-->bibtex (coming soon)<!--/a--> |
-                paper (coming soon) | <a href="https://arxiv.org/abs/2301.11892">arXiv</a>
+                <a shape="rect" href="javascript:togglebib(&#39;icra23&#39;)" class="toggleblock">bibtex</a> | <a href="https://ieeexplore.ieee.org/document/10160358">paper</a> | <a href="https://arxiv.org/abs/2301.11892">arXiv</a>
 
 
                 <p align="justify" id="icra23_abs" style="display: none;"> Despite rapid advancements in the lifelong learning (LLL) research, a large body of research mainly focuses on improving the performance in the existing <i>static</i> continual learning (CL) setups. These methods lack the ability to succeed in a rapidly changing <i>dynamic</i> environment, where an AI agent needs to quickly learn new instances in a `single pass' from the non-i.i.d (also possibly temporally contiguous/coherent) data streams without suffering from catastrophic forgetting. For practical applicability, we propose a novel lifelong learning approach, which is streaming, i.e., a single input sample arrive in each time step, single pass, class-incremental, and subject to be evaluated at any moment. To address this challenging setup and various evaluation protocols, we propose a Bayesian framework, that enables fast parameter update, given a single training example, and enables any-time inference. We additionally propose an implicit regularizer in the form of snap-shot self-distillation, which effectively minimizes the forgetting further. We further propose an effective method that efficiently selects a subset of samples for online memory rehearsal and employs a new replay buffer management scheme that significantly boosts the overall performance. Our empirical evaluations and ablations demonstrate that the proposed method outperforms the prior works by large margins.</p>
 
-                <!--pre xml:space="preserve" style="display: none;">@inproceedings{kiran_inter22,
-                Author = {R,Kiran.
-                and Kurmi, Vinod K
-                and Namboodiri, Vinay P
-                and Jawhar, CV},
-                Title = {Generalized Keyword
-                Spotting using ASR embeddings},
-                Booktitle = {InterSpeech},
-                Year   = {2022}
-                }
-                </pre-->
+                <pre xml:space="preserve" style="display: none; font-family: monospace;">@article{banerjee2023streaming,
+                  title={Streaming LifeLong Learning
+                    With Any-Time Inference},
+                  author={Banerjee, Soumya and
+                    Verma, Vinay Kumar and
+                    Namboodiri, Vinay P},
+                  journal={arXiv preprint 
+                    arXiv:2301.11892},
+                  year={2023}
+                }</pre>
+
               </div>
 
               
@@ -204,6 +266,7 @@
             <td style="padding:20px;width:75%;vertical-align:middle">
               I have reviewed for the following venues: 
               <ul>
+                <li><strong>2024</strong>: CVPR, WACV, ICLR, ICRA</li>
                 <li><strong>2023</strong>: CVPR, ICCV, NeurIPS, BMVC</li>
                 <li><strong>2022</strong>: NeurIPS, WACV, ICVGIP, Pattern Recognition</li>
               </ul>
