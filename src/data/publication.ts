@@ -37,7 +37,8 @@ export const publicationData: Publication[] = [
     "year": "2024",
     "conference": "Atmospheric Environment",
     "title": "A Hybrid Approach for Integrating Micro-Satellite Images and Sensors Network-Based Ground Measurements Using Deep Learning for High-Resolution Prediction of Fine Particulate Matter (PM2.5) over an Indian City, Lucknow",
-    "authors": "Tripathi, Sachchida; Jain, Vaishali; Mukherjee, Avideep; Madhwal, Sandeep; Bergin, Michael H.; Bhave, Prakash; Carlson, David; Jiang, Ziyang; Rai, Piyush",
+    "authors": "Jain, Vaishali; Mukherjee, Avideep; Banerjee, Soumya; Madhwal, Sandeep; Bergin, Michael H.; Bhave, Prakash; Carlson, David; Jiang, Ziyang; Rai, Piyush; Tripathi, Sachchida",
+    "paperUrl": "https://drive.google.com/file/d/1iKpz8QBBGeUlcc_QGUOFNdIwTiTZc2KR/view",
   },
   
   {
