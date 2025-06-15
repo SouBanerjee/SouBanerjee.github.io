@@ -18,7 +18,7 @@ export const educationData: Education[] = [
   },
   {
     year: "2016—2018",
-    institution: "Ramakrishna Mission Vivekananda Educational and Research Institute",
+    institution: "Banaras Hindu University",
     degree: "M.Sc. in Computer Science",
     // thesis: "A Medoid-Based Weighting Scheme for Qualitative Improvement of Nearest Neighbor Decision Rule",
     // Optional links to thesis
