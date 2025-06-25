@@ -12,7 +12,7 @@ export const educationData: Education[] = [
   {
     year: "2018—2025",
     institution: "Indian Institute of Technology Kanpur",
-    degree: "Integrated M.Tech. - Ph.D. in Computer Science and Engineering",
+    degree: "M.Tech. - Ph.D. in Computer Science and Engineering",
     advisor: "Prof. Piyush Rai & Prof. Vinay P. Namboodiri (University of Bath)",
     thesis: "Adaptable and Efficient AI Systems via Lifelong Learning and Unlearning",
   },
