@@ -28,7 +28,7 @@ export const aboutMe: AboutMe = {
     at <a href='https://www.duke.edu/'>Duke University</a>, working under the supervision of \
     <a href='https://ece.duke.edu/faculty/lawrence-carin'>Prof. Lawrence Carin</a>. \
     My research focuses on generative modeling and computer vision, particularly understanding \
-    the role of transformers in implementing functional gradient descent for categorical outcomes. \
+    the role of transformers attention block in implementing functional gradient descent (GD) inference for contextual data with categorical outcomes. \
     Additionally, I am exploring how to adapt pretrained diffusion models, such as Stable Diffusion, \
     for conditional generation of unseen classes or concepts using multimodal prompts. \
     Previously, I was a PhD student in the <a href='www.cse.iitk.ac.in'>Department of Computer Science and Engineering</a> \
