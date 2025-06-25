@@ -30,7 +30,7 @@ export const aboutMe: AboutMe = {
     My research focuses on generative modeling and computer vision, particularly understanding \
     the role of transformers attention block in implementing functional gradient descent (GD) inference for contextual data with categorical outcomes. \
     Additionally, I am exploring how to adapt pretrained diffusion models, such as Stable Diffusion, \
-    for conditional generation of unseen classes or concepts using multimodal prompts. \
+    for conditional generation of unseen classes or concepts using multimodal prompts and retrieval augmented generation. \
     Previously, I was a PhD student in the <a href='www.cse.iitk.ac.in'>Department of Computer Science and Engineering</a> \
     at <a href='www.iitk.ac.in'>IIT Kanpur</a>, advised by <a href='https://www.cse.iitk.ac.in/users/piyush/'>Prof. Piyush Rai</a> \
     and <a href='https://vinaypn.github.io/'>Prof. Vinay P. Namboodiri</a> \
