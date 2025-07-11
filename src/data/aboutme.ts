@@ -45,7 +45,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "soubanerjee",
   twitterUsername: "SouBanerjeecse",
   //blogUrl: "https://",
-  cvUrl: "https://www.dropbox.com/scl/fi/t4bv1gzw9m9dasib53muk/cv.pdf?rlkey=ouyw0nsqx1vlg691zdxxj0c1t&st=j6fqr5wo&dl=0",
+  cvUrl: "https://www.dropbox.com/scl/fi/39z8zbdvljxlmcst6kso2/Soumya_Banerjee_Duke_CV.pdf?rlkey=34y6mvlwx3k8ho28v5yux62sq&st=iaen5c2n&dl=0",
   institutionUrl: "https://www.duke.edu/",
   // altName: "",
   // secretDescription: "I like dogs.",
